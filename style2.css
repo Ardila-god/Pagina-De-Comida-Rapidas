@@ -34,8 +34,12 @@
     gap: 20px;
 }
 
-.menu-computador a{
+
+
+.menu-computador li{
     color: white;
+    list-style: none;
+    cursor: pointer;
 }
 
 .text-info{
@@ -239,7 +243,126 @@
     gap: 10px;
 }
 
+.icon-menu-cel{
+    display: none;
+}
+span{
+    cursor: pointer;
+}
+
 /*media querys*/
+@media (max-width: 750px) {
+    *{
+        box-sizing: border-box;
+    }
+    .cont-header{
+        height: auto;
+        padding: 20px 0;
+    }
+    .menu-computador{
+        display: none;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .icon-menu-cel{
+        display: block;
+    }
+    .icon-menu-cel img{
+        width: 60px;
+    }
+    .text-info{
+        width: auto;
+    }
+    .text-change{
+        display: none;
+    }
+/*here the styles of the main content*/
+.cont-main{
+    width: 100%;
+    padding-top: 300px;
+}
+.hamburguesa-1{
+    row-gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hamburguesa-1 img{
+    width: 400px;
+}
+.description-burger-mixta{
+    padding: 0;
+    font-size: 20px;
+}
+.description-burger-mixta h2{
+    text-align: center;
+}
+.description-burger-mixta p{
+    font-size: 20px;
+}
+.hamburguesa-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.hamburguesa-2 img{
+    width: 400px;
+}
+.description-burger-trescarnes{
+    padding: 0;
+    font-size: 20px;
+}
+.description-burger-trescarnes h2{
+    text-align: center;
+}
+.description-burger-trescarnes p{
+    font-size: 20px;
+}
+.perro-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.perro-1 img{
+    width: 400px;
+}
+.description-corderdog{
+    padding: 0;
+    font-size: 20px;
+}
+.description-corderdog h2{
+    text-align: center;
+}
+.description-corderdog p{
+    font-size: 20px;
+}
+.perro-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.perro-2 img{
+    width: 400px;
+}
+.description-hotdog{
+    padding: 0;
+    font-size: 20px;
+}
+.description-hotdog h2{
+    text-align: center;
+}
+.description-hotdog p{
+    font-size: 20px;
+}
+/*footer styles here*/
+    .footer{
+        width: auto;
+    }
+}
 @media (max-width: 400px) {
     * {
         margin: 0;

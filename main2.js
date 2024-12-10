@@ -50,3 +50,24 @@ function cambiarContenido(){
 cambiarContenido()
     
 setInterval(cambiarContenido, 3000)
+
+
+function desplazarAbajo(){
+  document.querySelector('.contactanos').addEventListener('click', () =>{
+    document.querySelector('.footer').scrollIntoView({
+      behavior : "smooth"
+    })
+  })
+}
+
+desplazarAbajo()
+
+function desplazarAriba(){
+  document.querySelector('.inicio').addEventListener('click', () =>{
+    document.querySelector('.cont-main').scrollIntoView({
+      behavior : "smooth"
+    })
+  })
+}
+
+desplazarAriba()
