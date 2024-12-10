@@ -251,6 +251,7 @@ span{
 }
 
 /*media querys*/
+<<<<<<< HEAD
 @media (max-width: 750px) {
     *{
         box-sizing: border-box;
@@ -364,6 +365,9 @@ span{
     }
 }
 @media (max-width: 400px) {
+=======
+@media (max-width: 600px) {
+>>>>>>> 8a7bf0ea04784ecdad51c68315b5c7a3f263ba3b
     * {
         margin: 0;
         padding: 0;
